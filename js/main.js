@@ -2,6 +2,7 @@ var cardOne = 'queen';
 var cardTwo = 'queen';
 var cardThree = 'king';
 var cardFour = 'king';
+var cardFive = 'king';
 
 if (cardOne === cardTwo) {
 	alert('You found a match!');	

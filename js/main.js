@@ -1,17 +1,15 @@
-var cardOne = 'queen';
-var cardTwo = 'queen';
-var cardThree = 'king';
-var cardFour = 'king';
-var cardFive = 'king';
-var cardSix = 'king';
-<<<<<<< HEAD
-var cardSeven = 'king';
-=======
-var cardSeven = 'queen'
->>>>>>> a229f23e8462b0991d6be7f7a3b37a2e9ff7cf2c
 
-if (cardOne === cardTwo) {
-	alert('You found a match!');	
-} else {
-  alert('Sorry, try again.');
-};
+  
+var cards = ['queen', 'queen', 'king', 'king'];
+var cardsInPlay = [];
+
+
+var board = document.getElementById('game-board');
+function createBoard() {
+  for (var i=0; i<cards.length; i++) {
+    var cardElement = document.createElement('div');
+    cardElement.className = 'card';
+    cardElement.setAttribute('data-card', cards[i]);
+    cardElement.addEventListener('click', isTwoCards);
+
+    board.appendChild(cardElement);

@@ -19,9 +19,9 @@ function isTwoCards() {
    cardsInPlay.push(this.getAttribute('data-card'));
 	console.log(this.getAttribute('data-card'));
 	if (this.getAttribute('data-card') === 'king') {
-		this.innerHTML = "<img src='http://p3.i.ntere.st/23e93eae2f234da51d8a3e71279d0f03_480.jpg'>"; // Vegetto
+		this.innerHTML = "<img src='http://pre00.deviantart.net/ad4b/th/pre/f/2013/175/d/0/dragon_ball_z___super_saiyajin_trunks_by_dbcproject-d6ajgr9.jpg'>"; // Trunks
 	} else {
-		this.innerHTML = "<img src='http://pre01.deviantart.net/a120/th/pre/f/2012/234/8/a/dragon_ball_z___saikyo_no_senshi_son_gohan_by_dbcproject-d55vk3n.jpg'>"; //Gohan
+		this.innerHTML = "<img src='https://s-media-cache-ak0.pinimg.com/236x/f5/40/58/f5405844b3f8be39ca7baf7491a2cb28.jpg'>"; // Vegteta
 	}
   
   if (cardsInPlay.length === 2) {
@@ -37,6 +37,7 @@ function isMatch(cards) {
     alert("Sorry, try again.");
 
   }
+
 }
 
 createBoard();

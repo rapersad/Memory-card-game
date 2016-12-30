@@ -1,15 +1,34 @@
-h1 {
-  color: rgb(2, 132, 130);
-  text-align: center;   
-}
-
 h2, h3 {
   color: #ffd700;
   text-align: center;
 }
 
-p {
-  text-align: center;
+.card{
+  height: 200px;
+  width: 150px;
+  border: 1px solid black;
+  background-color: yellow;
+  border-radius: 10px;
+  float: left;
+  margin: 8%;
+}
+
+h1 {
+  color:rgb(2, 132, 130);
+  text-align: center
+}
+
+h2 {
+  color: #ffd700;
+  text-align: center
+}
+
+p{
+  text-align: center
+}
+
+.name {
+  color: #ff0000;
 }
 
 .board {
@@ -18,38 +37,22 @@ p {
   display: inline-block;
 }
 
-.card {
-  height: 200px;
-  width: 150px;
-  border: solid black 1px;
-  background-color: yellow;
-  border-radius: 10px;
-  float: left;
-  margin: 8%;
-  
-}
-
-.name {
-  color: #ff0000;
-}
-
-
 nav {
-  background-color:#808080; 
-}
+  background-color: #808080;
+      }
 
 a {
-  background-color: #ffbf00;
-  color: white;
-  padding: 35px;
-  float: left; 
-  display: block;
-  text-decoration: none;
-}
+        background-color: #ffbf00;
+        color: white;
+        text-decoration: none;
+        display: block;
+        float: left;
+        padding: 35px;
+      }
 
-a:hover { 
-    background-color: #ee5f3c;
-}
+a:hover {
+        background-color: #ee5f3c;
+      }
 
 .clearfix:after {
         visibility: hidden;
@@ -60,8 +63,14 @@ a:hover {
         font-size: 0;
       }
 
+      img {
+  height: 200px;
+  width: 150px;
+}
+
 footer {
   background-color: #808080;
   text-align: center;
 }
+
 

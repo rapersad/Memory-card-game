@@ -1,16 +1,6 @@
-.card{
-  height: 200px;
-  width: 150px;
-  border: 1px solid black;
-  background-color: yellow;
-  border-radius: 10px;
-  float: left;
-  margin: 8%;
-}
-
 h1 {
   color:rgb(0, 0, 255);
-  text-align: center
+  text-align: center;
 }
 
 h2 {
@@ -19,7 +9,7 @@ h2 {
 }
 
 p{
-  text-align: center
+  text-align: center;
 }
 
 .name {
@@ -30,6 +20,17 @@ p{
   height: 80%;
   width: 50%;
   display: inline-block;
+}
+
+.card{
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  background-color: yellow;
+  border-radius: 10px;
+  float: right;
+  margin: 8%;
+  text-align: center;
 }
 
 nav {
@@ -44,7 +45,6 @@ a {
         float: left;
         padding: 35px;
         font-size: 20;
-        
       }
 
 a:hover {
@@ -61,7 +61,7 @@ a:hover {
       }
 
 img {
-  height: 200px;
+  height: 150px;
   width: 150px;
 }
 
@@ -69,5 +69,3 @@ footer {
   background-color: #808080;
   text-align: center;
 }
-
-
